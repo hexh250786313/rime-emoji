@@ -5,7 +5,7 @@ patch:
     name: emoji_suggestion
     reset: 1
     states: [ "🈚️️\uFE0E", "🈶️️\uFE0F" ]
-  'engine/filters/@before 0':
+  'engine/filters/@before 3':
     simplifier@emoji_suggestion
   emoji_suggestion:
     opencc_config: emoji.json
